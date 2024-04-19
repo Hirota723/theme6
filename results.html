@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>results.html</title>
+    <link rel="stylesheet" href="ress.min.css" />
+    <link rel="stylesheet" href="sanitize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <header></header>
+    <div class="title-bar">
+      <div class="container">
+        <h1>Web データ記述基礎レポート</h1>
+        <p>254504 廣田航輝</p>
+      </div>
+    </div>
+
+    <div class="navigation">
+      <div class="nav-bar">
+        <div class="container">
+          <nav>
+            <ul>
+              <li><a href="index.html">実験の目的</a></li>
+              <li>
+                <a href="explan.html">説明</a>
+              </li>
+              <li><a href="results.html">評価実験結果と考察</a></li>
+              <li><a href="research.html">論文紹介</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="contents">
+      <div class="container">
+        <ol
+          class="breadcrumb"
+          itemscope
+          itemtype="https://schema.org/BreadcrumbList"
+        >
+          <li
+            itemprop="itemListElement"
+            itemscope
+            itemtype="https://schema.org/ListItem"
+          >
+            <a itemprop="item" href="index.html">
+              <span itemprop="name">TOP</span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </li>
+
+          <li
+            itemprop="itemListElement"
+            itemscope
+            itemtype="https://schema.org/ListItem"
+          >
+            <a itemprop="item" href="results.html">
+              <span itemprop="name">結果・考察</span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </li>
+        </ol>
+
+        <section class="res-dis" id="res-dis">
+          <h2>評価実験結果と考察</h2>
+          <div class="txt-contents">
+            <p class="table">
+              表1 アクセシビリティ・チェックツールを用いて調査したページ
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>サイト名</th>
+                  <th>URL</th>
+                  <th class="error">エラー数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>京都産業大学</td>
+                  <td>https://www.kyoto-su.ac.jp/</td>
+                  <td class="error">0</td>
+                </tr>
+                <tr>
+                  <td>東京大学</td>
+                  <td>https://www.u-tokyo.ac.jp/ja/index.html</td>
+                  <td class="error">2</td>
+                </tr>
+                <tr>
+                  <td>Apple - 公式サイト</td>
+                  <td>https://www.apple.com/jp/</td>
+                  <td class="error">17</td>
+                </tr>
+                <tr>
+                  <td>任天堂ホームページ</td>
+                  <td>https://www.nintendo.co.jp/</td>
+                  <td class="error">13</td>
+                </tr>
+                <tr>
+                  <td>トヨタ自動車株式会社 公式企業サイト</td>
+                  <td>https://global.toyota/</td>
+                  <td class="error">24</td>
+                </tr>
+                <tr>
+                  <td>C言語】ポインタを初心者向けに分かりやすく解説</td>
+                  <td>https://daeudaeu.com/pointer/</td>
+                  <td class="error">75</td>
+                </tr>
+                <tr>
+                  <td>
+                    IoT開発初心者でもわかる！5つのプログラミング言語と学習のコツ
+                  </td>
+                  <td>https://grapebanana.com/iot-programming-16994/</td>
+                  <td class="error">25</td>
+                </tr>
+                <tr>
+                  <td>
+                    【プログラマー未経験きつい】実態！
+                    辞めたい辛い！ついていけない！新卒
+                  </td>
+                  <td>https://careland.org/programertaihenkitsui/</td>
+                  <td class="error">121</td>
+                </tr>
+                <tr>
+                  <td>
+                    【HTML】メニューバーのつくり方(順番にわかりやすく解説)
+                  </td>
+                  <td>https://wp-load.in/html-css/html-menu-bartd></td>
+                  <td class="error">51</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td>
+                    【進撃の巨人ネタバレ】物語に隠された7つの謎！未回収の伏線まとめ
+                  </td>
+                  <td>
+                    https://xn--u9ja7v0bq2o494shnza1ome76h.com/entry38.html
+                  </td>
+                  <td class="error">106</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              アクセシビリティ・チェックツールを用いて「個人サイト」と「団体サイト」のWeb
+              ページを調査し、サイト名、URL、エラー数をまとめたものを表1に示す。表1の上部5つは「団体サイト」で下部5つは「個人サイト」である。表1から「団体サイト」より「個人サイト」の方がエラー数が比較的多いことがわかる。
+            </p>
+            <p>
+              個人が運営するウェブサイトは、プロのウェブ開発者やアクセシビリティ専門家の支援を受けることが少ない場合があるため、アクセシビリティの実装やチェックが不十分なケースが多い傾向がある。また、個人サイトではアクセシビリティに関する知識や意識が不足していることが原因で、エラー数が比較的高くなる可能性がある。
+            </p>
+            <p>
+              一方、企業や大学などの団体サイトは、プロのウェブ開発者やデザイナーのチームによって制作・管理されている場合が一般的である。これらの団体は、アクセシビリティの重要性を認識しており、アクセシビリティガイドラインに基づいてウェブサイトを設計することが期待される。そのため、団体サイトでは、アクセシビリティエラー数が比較的低い傾向がある。
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="inspection">
+          <p>
+            <a
+              href="http://jigsaw.w3.org/css-validator/validator?lang=ja&profile=css3svg&uri=https%3A%2F%2Fwww.cc.kyoto-su.ac.jp%2F%7Eg2254504%2Fresults.html&usermedium=all&vextwarning=&warning=1"
+            >
+              <img
+                style="border: 0; width: 88px; height: 31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="正当なCSSです!"
+              />
+            </a>
+          </p>
+
+          <p>
+            <a
+              href="http://jigsaw.w3.org/css-validator/validator?lang=ja&profile=css3svg&uri=https%3A%2F%2Fwww.cc.kyoto-su.ac.jp%2F%7Eg2254504%2Fresults.html&usermedium=all&vextwarning=&warning=1"
+            >
+              <img
+                style="border: 0; width: 88px; height: 31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="正当なCSSです!"
+              />
+            </a>
+          </p>
+        </div>
+        <p>(C) 2023 K.Hirota all rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
